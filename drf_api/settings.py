@@ -63,7 +63,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = 'DEV' in os.environ
 
-ALLOWED_HOSTS = ['8000-townsend75-drfapi9-ttdazophfeu.ws-eu106.gitpod.io','https://dashboard.heroku.com/apps/drf-api-23']
+ALLOWED_HOSTS = ['8000-townsend75-drfapi9-ttdazophfeu.ws-eu106.gitpod.io','drf-api-23-7fe6ac9de693.herokuapp.com']
 
 
 # Application definition
