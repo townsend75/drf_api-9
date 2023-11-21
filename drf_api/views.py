@@ -5,7 +5,7 @@ from .settings import (
     JWT_AUTH_SAMESITE, JWT_AUTH_SECURE,
 )
 
-@api_view()
+@api_view([POST])
 def root_route(request):
     return Response({
         "message": "Welcome to my drf API!"
